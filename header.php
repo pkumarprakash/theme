@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>RScard</title>
-
+<?php wp_head(); ?>
 	<!-- Favicon -->
 	<link rel="shortcut icon" type="image/ico" href="img/favicon.png"/>
 
@@ -14,7 +14,17 @@
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fredoka+One">
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic">
 
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBxIKN4mTgYgTOXzxNSe67kqHr2vdDzR8"></script>
 
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+	<!-- Modernizer for detect what features the user’s browser has to offer -->
+	<script type="text/javascript" src="js/libs/modernizr.js"></script>
 	
 	<!-- Google Analitics -->
 	<script>
@@ -28,7 +38,7 @@
 	</script>
 </head>
 
-
+<body class="home header-has-img loading">	
 	<div id="awwwards" class="nominee white right">
 		<a href="http://www.awwwards.com/best-websites/material-design-resume-cv-portfolio/" target="_blank">Awwwards</a>
 	</div>
@@ -206,7 +216,6 @@
     </div><!-- .sidebar -->
 
     <div class="wrapper">
-	
         <header class="header">
             <div class="head-bg" style="background-image: url('img/uploads/rs-cover.jpg')"></div>
 
@@ -217,7 +226,7 @@
                             <a class="logo" href="index.html"><span>RS</span>card</a>
 							<!-- <a class="head-logo" href=""><img src="img/rs-logo.png" alt="RScard"/></a> -->
                         </div>
-<?php wp_head(); ?>
+
                         <div class="col-sm-9 col-xs-6">
                             <div class="nav-wrap">
                                 <nav id="nav" class="nav">
@@ -256,4 +265,4 @@
                 </div>
             </div>
         </header><!-- .header -->
-		
+	

@@ -1,6 +1,5 @@
 <?php get_header(); ?>
-<body class="home header-has-img loading">	  
-  <div class="content">
+       <div class="content">
             <div class="container">
 
 				<!-- START: PAGE CONTENT -->
@@ -879,4 +878,4 @@ You can use this for Honors or Achievments or Awards sections. You can insert im
                 
             </div><!-- .container -->
         </div><!-- .content -->
-		<?php get_footer(); ?>	
+<?php get_footer(); ?>	

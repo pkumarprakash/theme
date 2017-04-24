@@ -11,7 +11,7 @@
 		);
 		wp_enqueue_style('card-style');
 		
-				wp_register_style
+		wp_register_style
 		(
 			'card-style1', //Handle
 			get_template_directory_uri().'/js/plugins/jquery.bxslider/jquery.bxslider.css', //Source
@@ -21,7 +21,7 @@
 		);
 		wp_enqueue_style('card-style1');
 		
-				wp_register_style
+		wp_register_style
 		(
 			'card-style2', //Handle
 			get_template_directory_uri().'/js/plugins/jquery.customscroll/jquery.mCustomScrollbar.min.css', //Source
@@ -51,7 +51,7 @@
 		);
 		wp_enqueue_style('card-style4');
 		
-				wp_register_style
+		wp_register_style
 		(
 			'card-style5', //Handle
 			get_template_directory_uri().'/js/plugins/jquery.owlcarousel/owl.carousel.css', //Source
@@ -61,7 +61,7 @@
 		);
 		wp_enqueue_style('card-style5');
 		
-				wp_register_style
+		wp_register_style
 		(
 			'card-style6', //Handle
 			get_template_directory_uri().'/js/plugins/jquery.owlcarousel/owl.theme.css', //Source
@@ -71,7 +71,7 @@
 		);
 		wp_enqueue_style('card-style6');
 		
-				wp_register_style
+		wp_register_style
 		(
 			'card-style7', //Handle
 			get_template_directory_uri().'/js/plugins/jquery.optionpanel/option-panel.css', //Source
@@ -81,7 +81,7 @@
 		);
 		wp_enqueue_style('card-style7');
 		
-						wp_register_style
+		wp_register_style
 		(
 			'card-style8', //Handle
 			get_template_directory_uri().'/colors/theme-color.css', //Source
@@ -91,7 +91,7 @@
 		);
 		wp_enqueue_style('card-style8');
 		
-						wp_register_style
+		wp_register_style
 		(
 			'card-style9', //Handle
 			get_template_directory_uri().'/awwwards.css', //Source
@@ -101,7 +101,7 @@
 		);
 		wp_enqueue_style('card-style9');
 		
-								wp_register_style
+		wp_register_style
 		(
 			'card-style9', //Handle
 			get_template_directory_uri().'/fonts/icomoon/style.css', //Source
@@ -111,7 +111,7 @@
 		);
 		wp_enqueue_style('card-style9');
 		
-								wp_register_style
+		wp_register_style
 		(
 			'card-style9', //Handle
 			get_template_directory_uri().'/fonts/map-icons/css/map-icons.min.css', //Source

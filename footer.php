@@ -1,4 +1,4 @@
- <footer class="footer">
+       <footer class="footer">
             <div class="footer-social">
                 <ul class="social">
 					<li><a class="ripple-centered" href="" target="_blank"><i class="rsicon rsicon-facebook"></i></a></li>
@@ -11,7 +11,7 @@
             </div>
         </footer><!-- .footer -->
     </div><!-- .wrapper -->
-	<?php wp_footer(); ?>
+	
 	<a class="btn-scroll-top" href="#"><i class="rsicon rsicon-arrow-up"></i></a>
     <div id="overlay"></div>
     <div id="preloader">
@@ -20,8 +20,8 @@
 	</div>
 
     <!-- Scripts -->
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
-    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBxIKN4mTgYgTOXzxNSe67kqHr2vdDzR8"></script>
-   
+  
+    
+	<?php wp_footer(); ?>
 </body>
 </html>
