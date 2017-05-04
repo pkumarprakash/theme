@@ -9,7 +9,7 @@
 							<div class="profile">
 								<div class="row">
 									<div class="col-xs-5">
-										<div class="profile-photo"><img src="img/uploads/rs-photo-v1.jpg" alt="Robert Smith"/></div>
+										<div class="profile-photo"><img src="<?php echo get_template_directory_uri(); ?>/img/uploads/rs-photo-v1.jpg" alt="Robert Smith"/></div>
 									</div>
 									<div class="col-xs-7">
 										<div class="profile-info">
@@ -172,7 +172,7 @@
 							<div class="grid-item size22 photography">
 								<div class="grid-box">
 									<figure class="portfolio-figure">
-										<img src="img/uploads/portfolio/portfolio-thumb-05-610x600.jpg" alt=""/>
+										<img src="<?php echo get_template_directory_uri(); ?>/img/uploads/portfolio/portfolio-thumb-05-610x600.jpg" alt=""/>
 										<figcaption class="portfolio-caption">
 											<div class="portfolio-caption-inner">
 												<h3 class="portfolio-title">Street Photography</h3>
@@ -190,7 +190,7 @@
 
 									<!-- Start: Portfolio Inline Boxes -->
 									<div id="portfolio1-inline1" class="fancybox-inline-box">
-                                        <div class="inline-embed" data-embed-type="image" data-embed-url="img/uploads/portfolio/portfolio-thumb-05-large.jpg"></div>
+                                        <div class="inline-embed" data-embed-type="image" data-embed-url="<?php echo get_template_directory_uri(); ?>/img/uploads/portfolio/portfolio-thumb-05-large.jpg"></div>
 										<div class="inline-cont">
 											<h2 class="inline-title">Street photography is photography that features the chance encounters and random accidents within public places.</h2>
 											<div class="inline-text">
@@ -200,7 +200,7 @@
 									</div>																
 									
 									<div id="portfolio1-inline2" class="fancybox-inline-box">
-                                        <div class="inline-embed" data-embed-type="image" data-embed-url="img/uploads/portfolio/portfolio-thumb-01-large.jpg"></div>
+                                        <div class="inline-embed" data-embed-type="image" data-embed-url="<?php echo get_template_directory_uri(); ?>/img/uploads/portfolio/portfolio-thumb-01-large.jpg"></div>
 										<div class="inline-cont">
 											<div class="inline-text">
 												<h2 class="inline-title">Framing and timing</h2>
@@ -225,7 +225,7 @@
 							<div class="grid-item size11 bridge">
 								<div class="grid-box">
 									<figure class="portfolio-figure">
-										<img src="img/uploads/portfolio/portfolio-thumb-11-289x281.jpg" alt=""/>
+										<img src="<?php echo get_template_directory_uri(); ?>/img/uploads/portfolio/portfolio-thumb-11-289x281.jpg" alt=""/>
 										<figcaption class="portfolio-caption">
 											<div class="portfolio-caption-inner">
 												<h3 class="portfolio-title">Suspension Bridge</h3>
@@ -273,7 +273,7 @@
 							<div class="grid-item size11 nature photography">
 								<div class="grid-box">
 									<figure class="portfolio-figure">
-										<img src="img/uploads/portfolio/portfolio-thumb-08-289x281.jpg" alt=""/>
+										<img src="<?php echo get_template_directory_uri(); ?>/img/uploads/portfolio/portfolio-thumb-08-289x281.jpg" alt=""/>
 										<figcaption class="portfolio-caption">
 											<div class="portfolio-caption-inner">
 												<h3 class="portfolio-title">Rocky Mountains</h3>
@@ -291,15 +291,15 @@
 
 									<!-- Start: Portfolio Inline Boxes -->
 									<div id="portfolio3-inline1" class="fancybox-inline-box">
-                                        <div class="inline-embed" data-embed-type="image" data-embed-url="img/uploads/portfolio/portfolio-thumb-08-large.jpg"></div>
+                                        <div class="inline-embed" data-embed-type="image" data-embed-url="<?php echo get_template_directory_uri(); ?>/img/uploads/portfolio/portfolio-thumb-08-large.jpg"></div>
 									</div>
 
 									<div id="portfolio3-inline2" class="fancybox-inline-box">
-                                        <div class="inline-embed" data-embed-type="image" data-embed-url="img/uploads/portfolio/portfolio-thumb-04-large.jpg"></div>
+                                        <div class="inline-embed" data-embed-type="image" data-embed-url="<?php echo get_template_directory_uri(); ?>/img/uploads/portfolio/portfolio-thumb-04-large.jpg"></div>
 									</div>
 									
 									<div id="portfolio3-inline3" class="fancybox-inline-box">
-                                        <div class="inline-embed" data-embed-type="image" data-embed-url="img/uploads/portfolio/portfolio-thumb-02-large.jpg"></div>
+                                        <div class="inline-embed" data-embed-type="image" data-embed-url="<?php echo get_template_directory_uri(); ?>/img/uploads/portfolio/portfolio-thumb-02-large.jpg"></div>
 									</div>
 									<!-- End: Portfolio Inline Boxes -->
 								</div>
@@ -461,39 +461,39 @@
 
                         <div class="clients-carousel">
                             <div class="client-logo">
-                                <a href="http://market.envato.com" target="_blank"><img src="img/uploads/logos/logo-envato.png" title="envato" alt="envato"/></a>
+                                <a href="http://market.envato.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/uploads/logos/logo-envato.png" title="envato" alt="envato"/></a>
                             </div>
 
                             <div class="client-logo">
-                                <img src="img/uploads/logos/logo-angularjs.png" title="angular js" alt="angular js"/>
+                                <img src="<?php echo get_template_directory_uri(); ?>/img/uploads/logos/logo-angularjs.png" title="angular js" alt="angular js"/>
                             </div>
 
                             <div class="client-logo">
-                                <a href="https://www.omniref.com/ruby/gems/teaspoon/0.7.9" target="_blank"><img src="img/uploads/logos/logo-teaspoon.png" title="teaspoon" alt="teaspoon"/></a>
+                                <a href="https://www.omniref.com/ruby/gems/teaspoon/0.7.9" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/uploads/logos/logo-teaspoon.png" title="teaspoon" alt="teaspoon"/></a>
                             </div>
 
                             <div class="client-logo">
-                                <a href="https://wordpress.com" target="_blank"><img src="img/uploads/logos/logo-wordpress.png" title="wordpress" alt="wordpress"/></a>
+                                <a href="https://wordpress.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/uploads/logos/logo-wordpress.png" title="wordpress" alt="wordpress"/></a>
                             </div>
 
                             <div class="client-logo">
-                                <a href="https://evernote.com" target="_blank"><img src="img/uploads/logos/logo-evernote.png" title="evernote" alt="evernote"/></a>
+                                <a href="https://evernote.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/uploads/logos/logo-evernote.png" title="evernote" alt="evernote"/></a>
                             </div>
 
                             <div class="client-logo">
-                                <a href="http://compass-style.org" target="_blank"><img src="img/uploads/logos/logo-compass.png" title="compass" alt="compass"/></a>
+                                <a href="http://compass-style.org" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/uploads/logos/logo-compass.png" title="compass" alt="compass"/></a>
                             </div>
 
                             <div class="client-logo">
-                                <a href="http://getbootstrap.com" target="_blank"><img src="img/uploads/logos/logo-bootstrap.png" title="bootstrap" alt="bootstrap"/></a>
+                                <a href="http://getbootstrap.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/uploads/logos/logo-bootstrap.png" title="bootstrap" alt="bootstrap"/></a>
                             </div>
 
                             <div class="client-logo">
-                                <a href="http://jasmine.github.io" target="_blank"><img src="img/uploads/logos/logo-jasmine.png" title="jasmine" alt="jasmine"/></a>
+                                <a href="http://jasmine.github.io" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/uploads/logos/logo-jasmine.png" title="jasmine" alt="jasmine"/></a>
                             </div>
 
                             <div class="client-logo">
-                                <a href="https://jquery.com" target="_blank"><img src="img/uploads/logos/logo-jquery.png" title="jquery" alt="jquery"/></a>
+                                <a href="https://jquery.com" target="_blank"><img src="<?php echo get_template_directory_uri(); ?>/img/uploads/logos/logo-jquery.png" title="jquery" alt="jquery"/></a>
                             </div>
 						</div>
 					</div>
@@ -511,7 +511,7 @@
 											website's success, helping it to become one of the most visited resources of its kind on the Internet.</p>
 										</div>
 										<div class="person-info clearfix">
-											<img class="person-img" src="img/uploads/rs-avatar-60x60.jpg" alt="Headshot">
+											<img class="person-img" src="<?php echo get_template_directory_uri(); ?>/img/uploads/rs-avatar-60x60.jpg" alt="Headshot">
 											<div class="person-name-title">
 												<span class="person-name">Alexander Jokovich</span>
 												<span class="person-title">Modern LLC , HR</span>
@@ -526,7 +526,7 @@
 											in full and on time.</p>
 										</div>
 										<div class="person-info clearfix">
-											<img class="person-img" src="img/uploads/rs-avatar-60x60.jpg" alt="Headshot">
+											<img class="person-img" src="<?php echo get_template_directory_uri(); ?>/img/uploads/rs-avatar-60x60.jpg" alt="Headshot">
 											<div class="person-name-title">
 												<span class="person-name">Alexander Jokovich</span>
 												<span class="person-title">Modern LLC , HR</span>
@@ -541,7 +541,7 @@
 											to his family and work, and is entirely peace-loving.</p>
 										</div>
 										<div class="person-info clearfix">
-											<img class="person-img" src="img/uploads/rs-avatar-60x60.jpg" alt="Headshot">
+											<img class="person-img" src="<?php echo get_template_directory_uri(); ?>/img/uploads/rs-avatar-60x60.jpg" alt="Headshot">
 											<div class="person-name-title">
 												<span class="person-name">Alexander Jokovich</span>
 												<span class="person-title">Modern LLC , HR</span>
@@ -648,7 +648,7 @@
                                 <article class="post-box">
                                     <div class="post-media">
                                         <div class="post-image">
-                                            <a href="single.html"><img src="img/uploads/thumb-449x286-1.jpg" alt=""> </a>
+                                            <a href="single.html"><img src="<?php echo get_template_directory_uri(); ?>/img/uploads/thumb-449x286-1.jpg" alt=""> </a>
                                         </div>
                                     </div>
 
@@ -680,7 +680,7 @@
                                     <div class="post-media">
                                         <div class="post-image">
                                             <a href="single-vimeo.html">
-                                                <img src="img/uploads/thumb-449x286-5.jpg" alt="">
+                                                <img src="<?php echo get_template_directory_uri(); ?>/img/uploads/thumb-449x286-5.jpg" alt="">
                                                 <span class="post-type-icon"><i class="rsicon rsicon-play"></i></span>
                                             </a>
                                         </div>
@@ -718,9 +718,9 @@
 						<div class="section-box">
 							<p>Hello! I’m Robert Smith and this is custom editor section. You can add here any text or "Strikethrough" text  and even you can add bulleted or numbered text and even you will be able to add blockquot text. You can align this text to left/right/center.
 
-One of the most interesting options is to divide this section to "One half" "One Third" and "One Fourth".
+									One of the most interesting options is to divide this section to "One half" "One Third" and "One Fourth".
 
-You can use this for Honors or Achievments or Awards sections. You can insert images and photos right in this editor!</p>
+									You can use this for Honors or Achievments or Awards sections. You can insert images and photos right in this editor!</p>
 						</div>
 					</div>
 				</section><!-- #text-section -->
@@ -773,7 +773,7 @@ You can use this for Honors or Achievments or Awards sections. You can insert im
 						<h2 class="section-title">Availability Calendar</h2>
 
 						<div class="calendar-busy" data-weekstart="monday">
-							<div class="calendar-today" style="background-image: url('img/uploads/rs-calendar-cover.jpg')">
+							<div class="calendar-today" style="background-image: url('wp-content/themes/card/img/uploads/rs-calendar-cover.jpg')">
 								<div class="valign-outer">
 									<div class="valign-middle">
 										<div class="valign-inner">

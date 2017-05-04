@@ -146,34 +146,5 @@
 
 	}
 	add_action('wp_enqueue_scripts', 'add_custom_scripts_styles');
-/*	
-	function card_menu() 
-	{
-		   register_nav_menus( array( 'main' => 'Main Nav' ) );
-	}
 
-	add_action('init', 'card_menu');	
-	
-	
-	function cool_blue_sidebar() 
-	{
-		   register_sidebar
-		   ( 
-				array 
-				(
-					'name'=> 'Primary Sidebar',
-					'id'=> 'primary-widget-area',
-					'description' => 'The primary widget area',
-					'before_widget' => '<div class="sidemenu">',
-					'after_widget'=> "</div>",
-					'before_title'=> '<h3>',
-					'after_title' => '</h3>' 
-				)
-			);
-
-	}
-
-	add_action('init', 'cool_blue_sidebar');	
-	
-	*/
 ?>

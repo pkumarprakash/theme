@@ -6,15 +6,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>RScard</title>
-<?php wp_head(); ?>
+	<?php wp_head(); ?>
 	<!-- Favicon -->
-	<link rel="shortcut icon" type="image/ico" href="img/favicon.png"/>
+	<link rel="shortcut icon" type="image/ico" href="<?php echo get_template_directory_uri(); ?>/img/favicon.png"/>
 
 	<!-- Google Fonts -->
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Fredoka+One">
 	<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic">
-
-  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
+	
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBxIKN4mTgYgTOXzxNSe67kqHr2vdDzR8"></script>
 
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -24,7 +24,7 @@
 	<![endif]-->
 
 	<!-- Modernizer for detect what features the user’s browser has to offer -->
-	<script type="text/javascript" src="js/libs/modernizr.js"></script>
+	<!--<script type="text/javascript" src="js/libs/modernizr.js"></script>
 	
 	<!-- Google Analitics -->
 	<script>
@@ -83,7 +83,7 @@
         <div class="widget-area">
             <aside class="widget widget-profile">
                 <div class="profile-photo">
-                    <img src="img/uploads/rs-photo-v2.jpg" alt="Robert Smith"/>
+                    <img src="<?php echo get_template_directory_uri(); ?>/img/uploads/rs-photo-v2.jpg" alt="Robert Smith"/>
                 </div>
                 <div class="profile-info">
                     <h2 class="profile-title">Robert Smith</h2>
@@ -141,17 +141,17 @@
                 <h2 class="widget-title">Popular posts</h2>
                 <ul>
                     <li>
-                        <div class="post-media"><a href=""><img src="img/uploads/thumb-78x56-1.jpg" alt=""/></a></div>
+                        <div class="post-media"><a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/uploads/thumb-78x56-1.jpg" alt=""/></a></div>
                         <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
                         <div class="post-info"><a href=""><i class="rsicon rsicon-comments"></i>56 comments</a></div>
                     </li>
                     <li>
-                        <div class="post-media"><a href=""><img src="img/uploads/thumb-78x56-2.jpg" alt=""/></a></div>
+                        <div class="post-media"><a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/uploads/thumb-78x56-2.jpg" alt=""/></a></div>
                         <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
                         <div class="post-info"><a href=""><i class="rsicon rsicon-comments"></i>56 comments</a></div>
                     </li>
                     <li>
-                        <div class="post-media"><a href=""><img src="img/uploads/thumb-78x56-3.jpg" alt=""/></a></div>
+                        <div class="post-media"><a href=""><img src="<?php echo get_template_directory_uri(); ?>/img/uploads/thumb-78x56-3.jpg" alt=""/></a></div>
                         <h3 class="post-title"><a href="">Standard Post Format With Featured Image</a></h3>
                         <div class="post-info"><a href=""><i class="rsicon rsicon-comments"></i>56 comments</a></div>
                     </li>
@@ -217,7 +217,7 @@
 
     <div class="wrapper">
         <header class="header">
-            <div class="head-bg" style="background-image: url('img/uploads/rs-cover.jpg')"></div>
+            <div class="head-bg" style="background-image:url('wp-content/themes/card/img/uploads/rs-cover.jpg')"></div>
 
             <div class="head-bar">
                 <div class="head-bar-inner">
